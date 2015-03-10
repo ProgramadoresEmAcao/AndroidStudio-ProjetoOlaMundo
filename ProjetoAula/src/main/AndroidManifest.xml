@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.programadoresemacao.projetoaula" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.programadoresemacao.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.programadoresemacao.activity.CicloDeVidaActivity"
+            android:label="@string/title_activity_ciclo_de_vida" >
+        </activity>
+        <activity
+            android:name="br.com.programadoresemacao.activity.ComponentesActivity"
+            android:label="@string/title_activity_componentes"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="br.com.programadoresemacao.activity.TextViewActivity"
+            android:label="@string/title_activity_text_view" >
+        </activity>
+        <activity
+            android:name="br.com.programadoresemacao.activity.DragDropActivity"
+            android:label="@string/title_activity_drag_drop" >
+        </activity>
+        <activity
+            android:name="br.com.programadoresemacao.activity.EnviaObjetoActivity"
+            android:label="@string/title_activity_envia_objeto" >
+        </activity>
+        <activity
+            android:name="br.com.programadoresemacao.activity.RecebeObjetoActivity"
+            android:label="@string/title_activity_recebe_objeto" >
+        </activity>
+        <activity
+            android:name="br.com.programadoresemacao.activity.componentes.ComponenteEditActivity"
+            android:label="@string/title_activity_componente_edit" >
+        </activity>
+        <activity
+            android:name="br.com.programadoresemacao.activity.componentes.ComponenteRadioGroupActivity"
+            android:label="@string/title_activity_componente_radio_group" >
+        </activity>
+    </application>
+
+</manifest>

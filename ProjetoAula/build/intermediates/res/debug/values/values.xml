@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Arquivos/workspace/androidStudio/ProjetoAula/ProjetoAula/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="fundoTela">#DDEEFF</color>
+    <color name="fundoTitulo">#4499FF</color>
+    <!-- From: file:/D:/Arquivos/workspace/androidStudio/ProjetoAula/ProjetoAula/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">22dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+    <dimen name="large_margin_component">18dp</dimen>
+    <dimen name="marginSeparador">14dp</dimen>
+    <dimen name="simple_margin_component">10dp</dimen>
+    <!-- From: file:/D:/Arquivos/workspace/androidStudio/ProjetoAula/ProjetoAula/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Programadores em acao</string>
+    <string name="button">Button</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_activity_ciclo_de_vida">Ciclo De Vida</string>
+    <string name="main_activity_titulo">Programadores em Ação</string>
+    <string name="main_componentes">Componentes</string>
+    <string name="main_text_view">Editar TextView</string>
+    <string name="title_activity_ciclo_de_vida">Ciclo de vida</string>
+    <string name="title_activity_componente_edit">ComponenteEditActivity</string>
+    <string name="title_activity_componente_radio_group">ComponenteRadioGroupActivity</string>
+    <string name="title_activity_componentes">Componentes</string>
+    <string name="title_activity_drag_drop">DragDropActivity</string>
+    <string name="title_activity_envia_objeto">EnviaObjetoActivity</string>
+    <string name="title_activity_recebe_objeto">RecebeObjetoActivity</string>
+    <string name="title_activity_text_view">Editando TextView</string>
+    <string name="titulo_activity_ciclo_de_vida">Exemplo dos Ciclos de Vida da activity</string>
+    <string name="todo_name_button">Por Fazer</string>
+    <!-- From: file:/D:/Arquivos/workspace/androidStudio/ProjetoAula/ProjetoAula/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    <style name="Small_Titulo">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="Titulo" parent="AppBaseTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@color/fundoTitulo</item>
+    </style>
+    <style name="separador">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+</resources>

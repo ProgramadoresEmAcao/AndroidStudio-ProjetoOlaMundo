@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.programadoresemacao.activity.componentes.ComponenteRadioGroupActivity"
+    android:background="@color/fundoTela"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Titulo"
+        android:text="RadioGroup"/>
+
+    <TextView
+        style="@style/Small_Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Group Horizontal"
+        />
+
+    <RadioGroup
+        android:id="@+id/componentes_radiogroup_rgr_radiogroup01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/componentes_radiogroup_rbt_radio01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="radio01"/>
+        <RadioButton
+            android:id="@+id/componentes_radiogroup_rbt_radio02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="radio02"/>
+        <RadioButton
+            android:id="@+id/componentes_radiogroup_rbt_radio03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="radio03"/>
+
+        </RadioGroup>
+
+    <View
+        style="@style/separador"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        style="@style/Small_Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Group Vertical"
+        />
+
+    <RadioGroup
+        android:id="@+id/componentes_radiogroup_rgr_radiogroup02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/componentes_radiogroup_rbt_radio11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="radio11"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/componentes_radiogroup_rbt_radio12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="radio12"/>
+        <RadioButton
+            android:id="@+id/componentes_radiogroup_rbt_radio13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="radio13"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="capturar"
+        android:onClick="click"
+    />
+
+
+</LinearLayout>

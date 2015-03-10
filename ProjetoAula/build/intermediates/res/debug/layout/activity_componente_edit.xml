@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.programadoresemacao.activity.componentes.ComponenteEditActivity"
+    android:background="@color/fundoTela"
+    >
+
+    <TextView
+        android:id="@+id/componentes_edit_titulo"
+        style="@style/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edits"
+        android:layout_alignParentTop="true"><requestFocus/></TextView>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/componentes_edit_titulo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Small_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Texto Simples"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <View
+                style="@style/separador"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                style="@style/Small_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Número"
+                />
+
+            <EditText
+                android:id="@+id/componentes_edit_edt_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+            />
+
+            <View
+                style="@style/separador"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                style="@style/Small_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Número Decimal"
+                />
+
+            <EditText
+                android:id="@+id/componentes_edit_edt_number_decimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <View
+                style="@style/separador"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                style="@style/Small_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data e Tempo"
+                />
+
+            <EditText
+                android:id="@+id/componentes_edit_edt_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="datetime"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <View
+                style="@style/separador"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                style="@style/Small_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefone"
+                />
+
+            <EditText
+                android:id="@+id/componentes_edit_edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <View
+                style="@style/separador"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                style="@style/Small_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                />
+
+            <EditText
+                android:id="@+id/componentes_edit_edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <View
+                style="@style/separador"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                style="@style/Small_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                />
+
+            <EditText
+                android:id="@+id/componentes_edit_edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textWebEmailAddress"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <View
+                style="@style/separador"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                style="@style/Small_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiLinhas"
+                />
+
+            <EditText
+                android:id="@+id/componentes_edit_edt_multlines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress|textMultiLine"
+                android:lines="20"
+                android:minLines="2"
+                android:gravity="top|left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:scrollHorizontally="false"
+                />
+
+            <View
+                style="@style/separador"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                style="@style/Small_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AutoComplete"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/componentes_edit_edt_auto_complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
+<!-- From: file:/D:/Arquivos/workspace/androidStudio/ProjetoAula/ProjetoAula/src/main/res/layout/activity_componente_edit.xml -->

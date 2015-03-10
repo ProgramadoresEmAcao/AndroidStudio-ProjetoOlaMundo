@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.programadoresemacao.activity.componentes.ComponenteRadioGroupActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
+<!-- From: file:/D:/Arquivos/workspace/androidStudio/ProjetoAula/ProjetoAula/src/main/res/menu/menu_componente_radio_group.xml -->
